@@ -3,12 +3,12 @@ title: "Personalized glucose forecasting for people with type 1 diabetes using l
 collection: publications
 category: manuscripts
 permalink: /publication/2025-paper-personalized-glucose/
-excerpt: 'Large language models achieved state-of-the-art performance for glucose forecasting.'
+excerpt: ''
 date: 2025-06-01
 venue: 'Computer Methods and Programs in Biomedicine'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
+#slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
+#bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 citation: 'Lara-Abelenda, F. J., Chushig-Muzo, D., Peiro-Corbacho, P., Wägner, A. M., Granja, C., & Soguero-Ruiz, C. (2025). Personalized glucose forecasting for people with type 1 diabetes using large language models. Computer Methods and Programs in Biomedicine, 265, 108737.'
 ---
 

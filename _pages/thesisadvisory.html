@@ -7,27 +7,62 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .thesis-list { margin-top: 0.5em; }
+  .thesis-list h2 {
+    font-size: 1.25rem;
+    margin: 1.6em 0 0.4em;
+  }
+  .thesis-list .thesis__item {
+    padding: 0.6em 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  .thesis-list .thesis__item:last-child {
+    border-bottom: none;
+  }
+  .thesis-list .thesis__item-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+  .thesis-list .thesis__item-title:hover {
+    color: var(--global-link-color);
+    text-decoration: underline;
+  }
+  .thesis-list .thesis__item-meta {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin: 0.25em 0 0;
+  }
+</style>
+
 {% assign phd_theses = site.thesisadvisory | where: "degree", "PhD" | sort: "date" | reverse %}
 {% assign master_theses = site.thesisadvisory | where: "degree", "Master" | sort: "date" | reverse %}
 {% assign undergrad_theses = site.thesisadvisory | where: "degree", "Undergraduate" | sort: "date" | reverse %}
 
+<div class="thesis-list">
+
 {% if phd_theses.size > 0 %}
   <h2 id="phd">PhD</h2>
   {% for post in phd_theses %}
-    {% include archive-single.html %}
+    {% include thesis-single.html %}
   {% endfor %}
 {% endif %}
 
 {% if master_theses.size > 0 %}
   <h2 id="master">Master's</h2>
   {% for post in master_theses %}
-    {% include archive-single.html %}
+    {% include thesis-single.html %}
   {% endfor %}
 {% endif %}
 
 {% if undergrad_theses.size > 0 %}
   <h2 id="undergraduate">Undergraduate / Degree</h2>
   {% for post in undergrad_theses %}
-    {% include archive-single.html %}
+    {% include thesis-single.html %}
   {% endfor %}
 {% endif %}
+
+</div>

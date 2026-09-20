@@ -1,0 +1,16 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="thesis__item">
+  <a href="{{ base_path }}{{ post.url }}" class="thesis__item-title">{{ title }}</a>
+  <p class="thesis__item-meta">
+    {{ post.degree }} thesis &middot; {{ post.student }}{% if post.co_advisor and post.co_advisor != "" %} (co-advised with {{ post.co_advisor }}){% endif %} &middot;
+    <i>{{ post.institution }}</i> &middot;
+    {{ post.status | default: "Completed" }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+  </p>
+</div>

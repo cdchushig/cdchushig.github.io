@@ -3,7 +3,7 @@ title: "Data-driven visual characterization of patient health-status using elect
 collection: publications
 category: manuscripts
 permalink: /publication/2020-paper-data-driven/
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: ''
 date: 2020-07-27
 venue: 'IEEE Access'
 slidesurl: 'https://academicpages.github.io/files/slides2.pdf'

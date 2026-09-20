@@ -23,10 +23,10 @@ repository               : "cdchushig/cdchushig.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"       # replace images/profile.png with your own photo
+  avatar           : "photo_cdchushig.jpeg"       # replace images/profile.png with your own photo
   name             : "David Chushig-Muzo"
   pronouns         : # example: "she/her"
-  bio              : "Assistant Professor at Rey Juan Carlos University"
+  bio              : "Assistant Professor at URJC"
   location         : "Madrid, Spain"
   employer         : "Rey Juan Carlos University"
   uri              : https://servicios.urjc.es/pdi/ver/david.chushig

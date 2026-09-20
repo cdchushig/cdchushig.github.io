@@ -29,13 +29,13 @@ author:
   bio              : "Assistant Professor at Rey Juan Carlos University"
   location         : "Madrid, Spain"
   employer         : "Rey Juan Carlos University"
-  uri              : # URL
+  uri              : https://servicios.urjc.es/pdi/ver/david.chushig
   email            : "david.chushig@urjc.es"
 
   # Academic websites
-  academia         : https://servicios.urjc.es/pdi/ver/david.chushig
+  academia         : #
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # e.g. "https://scholar.google.com/citations?user=YOUR-ID"
+  googlescholar    : https://scholar.google.com/citations?user=XSrW_x8AAAAJ
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : https://orcid.org/0000-0001-5585-2305

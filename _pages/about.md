@@ -1,26 +1,20 @@
 ---
 permalink: /
-title: "[YOUR NAME] — [YOUR TITLE]"
+title: "David Chushig-Muzo, PhD"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-[PLACEHOLDER — replace with your own bio, e.g.:]
+I'm an Assistant Professor in the Department of Signal Theory and Communications, Telematics and Computing Systems 
+at Rey Juan Carlos University (URJC). My research focuses on Artificial Intelligence, XAI, Biomedical Engineering. 
+I advise organizations on developing AI-powered products using multi-agent systems and adopting MLOps practices to 
+build, deploy, and scale AI solutions effectively.
 
-I'm a [Title, e.g. Professor of Electrical Engineering] in the [Department] at
-[University]. My research focuses on [your research areas]. I also teach
-[courses you teach], and I'm interested in making signals & systems concepts
-intuitive through hands-on, visual examples.
-
-Teaching resources
-======
-See the [Teaching](/teaching/) page for course materials, including an interactive
-lesson on [image quantization & sampling](/teaching/quantization-sampling-images).
 
 Research interests
 ======
-- [Interest 1]
-- [Interest 2]
-- [Interest 3]
+- Explainable and multimodal AI
+- Biomedical Engineering
+- Multi-agent AI systems

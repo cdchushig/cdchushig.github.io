@@ -18,6 +18,7 @@ to maintain target levels. Despite the CGM advances, controlling both glucose an
 Artificial Intelligence (AI) models are emerged as promising approaches for identifying CGM patterns associated with NH
 and supporting its prediction.
 
+
 The main objective of this end-of-degree project is to evaluate the effectiveness of an artificial neural network model
 named Laplace-Approximated Neural Additive Model (LA-NAM) for predicting NH and identifying its most relevant factors.
 LA-NAM was compared with Logistic Regression(LR), Random Forest (RF), XGBoost, and Support Vector Classifier (SVC) to

@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # Custom theme for this site (see _sass/theme/_signals_*.scss). Built-ins: "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # Custom theme for this site (see _sass/theme/_signals_*.scss). Built-ins: "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "David Chushig-Muzo"
 title_separator          : "-"
 name                     : &name "David Chushig-Muzo"
@@ -230,7 +230,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+#  talks:
+#    output: true
+#    permalink: /:collection/:path/
+  thesisadvisory:
     output: true
     permalink: /:collection/:path/
 
@@ -290,6 +293,16 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _thesisadvisory
+  - scope:
+      path: ""
+      type: thesisadvisory
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+
 
 
 # Sass/SCSS

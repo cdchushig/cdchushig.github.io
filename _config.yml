@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "signals" # Custom theme for this site (see _sass/theme/_signals_*.scss). Built-ins: "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "sunrise" # Custom theme for this site (see _sass/theme/_signals_*.scss). Built-ins: "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "David Chushig-Muzo"
 title_separator          : "-"
 name                     : &name "David Chushig-Muzo"
-description              : &description "[YOUR NAME]'s academic homepage — teaching & research"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "David Chushig-Muzo"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cdchushig.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,10 +27,10 @@ author:
   name             : "David Chushig-Muzo"
   pronouns         : # example: "she/her"
   bio              : "Assistant Professor at Rey Juan Carlos University"
-  location         : "[Madrid, Spain]"
-  employer         : "[YOUR UNIVERSITY / DEPARTMENT]"
+  location         : "Madrid, Spain"
+  employer         : "Rey Juan Carlos University"
   uri              : # URL
-  email            : "your-email@example.com"
+  email            : "david.chushig@urjc.es"
 
   # Academic websites
   academia         : https://servicios.urjc.es/pdi/ver/david.chushig

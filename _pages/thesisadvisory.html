@@ -1,0 +1,33 @@
+---
+layout: archive
+title: "Thesis Advisory"
+permalink: /thesisadvisory/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign phd_theses = site.thesisadvisory | where: "degree", "PhD" | sort: "date" | reverse %}
+{% assign master_theses = site.thesisadvisory | where: "degree", "Master" | sort: "date" | reverse %}
+{% assign undergrad_theses = site.thesisadvisory | where: "degree", "Undergraduate" | sort: "date" | reverse %}
+
+{% if phd_theses.size > 0 %}
+  <h2 id="phd">PhD</h2>
+  {% for post in phd_theses %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% if master_theses.size > 0 %}
+  <h2 id="master">Master's</h2>
+  {% for post in master_theses %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% if undergrad_theses.size > 0 %}
+  <h2 id="undergraduate">Undergraduate / Degree</h2>
+  {% for post in undergrad_theses %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

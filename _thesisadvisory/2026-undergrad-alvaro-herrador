@@ -7,7 +7,7 @@ institution: "Rey Juan Carlos University"
 co_advisor: ""
 status: "Completed"
 date: 2024-12-01
-permalink: /thesisadvisory/undergrad-example
+permalink: /thesisadvisory/2026-alvaro-herrador
 link: ""
 ---
 
@@ -22,8 +22,8 @@ The main objective of this end-of-degree project is to evaluate the effectivenes
 named Laplace-Approximated Neural Additive Model (LA-NAM) for predicting NH and identifying its most relevant factors.
 LA-NAM was compared with Logistic Regression(LR), Random Forest (RF), XGBoost, and Support Vector Classifier (SVC) to
 assess its ability to obtain competitive performance while providing interpretability. We also evaluate the effectiveness
- of combining temporal windows with the extraction of range of CGM-derived features, and their impact on NH prediction.
- We apply undersampling and cost-sensitive methods for class imbalance, and perform a feature pruning approach. We used a
-  cohort of 41 patients with T1D from the Complejo Hospitalario Universitario Insular Materno-Infantil de Las Palmas
-  de Gran Canaria. The glucose recordings were transformed into clinically relevant variables using: statistical descriptors,
-   glucose-risk indexes, variability measurements, time-in-range metrics, observation-based variables, and glycemic control indicators.
+of combining temporal windows with the extraction of range of CGM-derived features, and their impact on NH prediction.
+We apply undersampling and cost-sensitive methods for class imbalance, and perform a feature pruning approach. We used a
+cohort of 41 patients with T1D from the Complejo Hospitalario Universitario Insular Materno-Infantil de Las Palmas
+de Gran Canaria. The glucose recordings were transformed into clinically relevant variables using: statistical descriptors,
+glucose-risk indexes, variability measurements, time-in-range metrics, observation-based variables, and glycemic control indicators.

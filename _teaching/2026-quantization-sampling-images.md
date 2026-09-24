@@ -1,5 +1,5 @@
 ---
-title: "Images — Quantization & Sampling"
+title: "Quantization & Sampling for Images"
 collection: teaching
 type: "Interactive lesson"
 permalink: /teaching/quantization-sampling-images
@@ -8,18 +8,11 @@ date: 2026-09-20
 location: "Online"
 ---
 
-An interactive lesson extending classic audio quantization/sampling concepts to
-**images**: grayscale & color bit-depth quantization, naive spatial downsampling, the Nyquist
-limit, and real-vs-synthetic aliasing/Moiré demonstrations.
+An interactive lesson about quantization/sampling concepts to **images**: grayscale & color bit-depth quantization,
+naive spatial downsampling, the Nyquist limit, and real-vs-synthetic aliasing/Moiré demonstrations.
 
 - 📓 **[Open the notebook](https://cdchushig.github.io/files/ImageQuantizationAndSampling_web.html)**
-  *(update this link once that site is published — see the project's README-DEPLOY.md)*
+
 
 - 📓 **[Open the interactive lab](https://cdchushig.github.io/files/QuantizationSamplingLab.html)**
-  *(update this link once that site is published — see the project's README-DEPLOY.md)*
 
-
-**Includes:**
-- An executed Jupyter notebook with every example and figure
-- A reusable Python helper library (`imagelab.py`)
-- A self-contained, slider-driven interactive HTML explorer for live in-class demos

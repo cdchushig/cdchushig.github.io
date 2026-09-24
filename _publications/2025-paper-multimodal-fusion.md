@@ -9,5 +9,5 @@ venue: 'Engineering Applications of Artificial Intelligence'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1016/j.jbi.2025.104821'
 #bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Lara-Abelenda, F. J., Chushig-Muzo, D., Peiro-Corbacho, P., Gómez-Martínez, V., Wägner, A. M., Granja, C., & Soguero-Ruiz, C. (2025). Transfer learning for a tabular-to-image approach: A case study for cardiovascular disease prediction. Journal of Biomedical Informatics, 165, 104821.'
+citation: ''
 ---
